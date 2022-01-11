@@ -34,10 +34,8 @@
 
 .header__title {
   width: 730px;
-  margin: 0;
+  margin: 0 0 0 64px;
   padding: 0;
-  position: absolute;
-  left: 64px;
   align-self: center;
   z-index: 2;
   line-height: 96px;
@@ -61,6 +59,7 @@
 .header__link {
   text-decoration: none;
   z-index: 2;
+  color: #2f80ed;
 }
 
 .header__link::after {
@@ -114,22 +113,11 @@
 
 .two-columns__main-text {
   width: 80%;
-  min-width: 705px;
-  /* min-width указана не 784 рх а 705 рх из следующих соображений: */
-  /* при минимальной ширине page согласно брифу 1100 px ширина two-columns составит 880 px (1100px * 80%); */
-  /* ширина two-columns__brief задана 175 px; */
-  /* при two-columns__main-text 784 рх блок выйдет за рамки родителя на 79 px (175+784-880) */
-  /* поэтому его размер уменьшен на 79 рх */
-}
-
-.list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  min-width: 784px;
 }
 
 .two-columns__paragraph {
-  margin: 0;
+  margin: 0 0 30px 0;
   padding: 0;
   color: #000;
   line-height: 34px;
@@ -137,8 +125,8 @@
   font-weight: normal;
 }
 
-.two-columns__paragraph_space_bottom {
-  margin-bottom: 30px;
+.two-columns__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .two-columns__span-accsent {
@@ -207,7 +195,7 @@
 }
 
 .feynman {
-  height: 890px;
+  min-height: 890px;
   background-color: #f2f2f2;
   background-image: url(../images/feynman.png);
   background-size: 867px 637px;
@@ -221,7 +209,7 @@
 }
 
 .feynman__title {
-  margin: 0;
+  margin: 100px 0 0 0;
   padding: 0;
   width: 648px;
   text-align: center;
@@ -248,6 +236,7 @@
   font-size: 36px;
   font-weight: normal;
   text-decoration: none;
+  color: #2f80ed;
   position: absolute;
   right: 48px;
   top: 50%;
@@ -376,5 +365,11 @@
   height: 16px;
   width: 16px;
   margin-right: 10px;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
   padding: 0;
 }
