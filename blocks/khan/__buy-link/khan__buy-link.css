@@ -1,12 +1,13 @@
 .khan__buy-link {
   margin: 0 0 0 48px;
-  height: 42px;
+  /*height: 42px; - прошу прощения, пробовал разные варианты, забыл удалить высоту, подумал, что все заработало :) */
+  /* но кстати, по брифу элемент сслыки занимает всю высоту родителя, хоть это и не логично */
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
-  display: block;
+  align-self: flex-start;
 }
 
 .khan__buy-link::after {
