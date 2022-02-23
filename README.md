@@ -27,4 +27,4 @@
 
  ## Preview :
 
- ![Preview](https://downloader.disk.yandex.ru/preview/7f4c526ea6b7ecbe44f2e9bd68f044a1993092a8268b572c1836880ee334ad43/61f326e9/Vt-ne5XWkWSkPe9D6WkZd7czIoBj0vd_O-7k6-j57ND226VNUzcIWYCLXcXusvFq4P24-qSRuGBotJL60tgxUg%3D%3D?uid=0&filename=how-to-learn.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048x2048)
+ ![Preview](./vendor/preview.png)
